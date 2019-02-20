@@ -2,5 +2,22 @@ This is the Worst Coded Crypto Balance Checker
 
 I started off trying to make one thing and it turned into another 
 
-This Balance Checker will activate said code depending on the variables that have been set up during the initial configuration process.... I have also included a QrCode .svg
+This Balance Checker will activate said code depending on the variables that has been set up during the initial configuration process.... I have also included a QrCode .svg whizh will alow you to export a picture of your Crypto adress in QRformat
+
+Ok! Why you Ask?
+
+well for example you want to except BTC on an arcade machine or have a door that opens when etc etc 
+
+in my example an arcade machine 
+
+-Run the software 
+-Watches BTC address
+-btc address pings
+-software sends ping to arduino via serial
+-arduino sends credit up via physical replay
+-And then the circle of life starts again
+
+
+
+
 
