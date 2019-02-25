@@ -2,20 +2,39 @@ This is the Worst Coded Crypto Balance Checker
 
 I started off trying to make one thing and it turned into another 
 
-This Balance Checker will activate said code depending on the variables that has been set up during the initial configuration process.... I have also included a QrCode .svg whizh will alow you to export a picture of your Crypto adress in QRformat
+This Balance Checker will activate said code depending on the variables that has been set up during the initial configuration process.... I have also included a QrCode .svg maker which will alow you to export a picture of your Crypto adress in QRformat
 
 Ok! Why you Ask?
 
-well for example you want to except BTC on an arcade machine or have a door that opens when etc etc 
+wel i wanted to start learning python and i had a few jobs doing so set abiut an easy way to make a switch 
 
-in my example an arcade machine 
+well for example you want to except BTC on an arcade machine or to have a door that opens when etc etc 
+
+in my example i have used an arcade machine 
 
 -Run the software 
+-make the configuration file
+-software shuts down 
+
+-launch software at startup
 -Watches BTC address
 -btc address pings
 -software sends ping to arduino via serial
--arduino sends credit up via physical replay
+-arduino sends credit up via physical relay
 -And then the circle of life starts again
+
+
+ok so where do i start?
+
+run the program for the first time and it will create a cfg.ini file if it finds one it will try to use the config file to run 
+
+if you want to reset the software just "DELETE" the "cfg.ini" and the software will try and build and bew cfg file from fresh again 
+
+which coins are supported?
+
+-The Current supported list of cryptocurrencys 
+ ['btc','dash','zec','doge','ltc']
+ 
 
 
 
