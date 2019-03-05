@@ -1,14 +1,12 @@
-This is the Worst Coded Crypto Balance Checker
+Welcome to The Worst Coded Crypto Balance Checker
 
 I started off trying to make one thing and it turned into another 
 
-This Balance Checker will activate said code depending on the variables that has been set up during the initial configuration process.... I have also included a QrCode .svg maker which will alow you to export a picture of your Crypto adress in QRformat
+This Balance Checker will activate said code depending on the variables that has been set up during the initial configuration process.... I have also included a QrCode .svg maker which will alow you to export a picture of your Crypto adress in QRformat so you can print an attach it to acompanying hardware
 
 Ok! Why you Ask?
 
-wel i wanted to start learning python and i had a few jobs doing so set abiut an easy way to make a switch 
-
-well for example you want to except BTC on an arcade machine or to have a door that opens when etc etc 
+well i wanted to start learning python and i had a few jobs doing so set abiut an easy way to make a crypto switch rhat you could use for example to except BTC on an arcade machine or to have a door that opens when paid etc etc 
 
 in my example i have used an arcade machine 
 
@@ -26,15 +24,30 @@ in my example i have used an arcade machine
 
 ok so where do i start?
 
-run the program for the first time and it will create a cfg.ini file if it finds one it will try to use the config file to run 
+run the program for the first time and it will create a cfg.ini file if it finds one it will try to use that config file to run 
 
-if you want to reset the software just "DELETE" the "cfg.ini" and the software will try and build and bew cfg file from fresh again 
+if you want to reset the software just "DELETE" the "cfg.ini" and the software will try and build and new cfg file from fresh again 
 
 which coins are supported?
 
 -The Current supported list of cryptocurrencys 
  ['btc','dash','zec','doge','ltc']
  
+-How does it work?
+I wanted to build a simple BTC watcher that would use the free api from
+SoChain which allows you to request info very easily as this is only for an arcade machine so theres no worry of accepting 0 confirmerd payments but this can be changed in the options...
+
+Options List In Software
+the first time yoy run the aoftware it will ask you questiona to build a cfg file that is ised ro run the server 
+
+
+
+
+
+
+
+
+
 
 
 
